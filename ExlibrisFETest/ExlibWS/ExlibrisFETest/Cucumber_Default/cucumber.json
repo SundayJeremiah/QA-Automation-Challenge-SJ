@@ -1,0 +1,430 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12598673330,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.Setup()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Functionilty test for integrated units for campusm",
+        "description": "",
+        "id": "end-to-end-testing-for-campusm-app;functionilty-test-for-integrated-units-for-campusm;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1237472186,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.ShutDownBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1537628666,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to campusm site \"https://m.campusm.org/campusm/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://m.campusm.org/campusm/",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinition.user_navigates_to_campusm_site(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1786442672,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user selects \"Student / Staff\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Student / Staff",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinition.user_selects(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 292521566,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicks on \"Accept\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Accept",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinition.clicks_on_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5146989934,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enters the values for \"Your First Name,joshua.c\" and \"Any value,campusm\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your First Name,joshua.c",
+                  "offset": 23
+                },
+                {
+                  "val": "Any value,campusm",
+                  "offset": 54
+                }
+              ],
+              "location": "StepDefinition.enters_the_values_for_and(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2176647762,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should verify \"Login\" button is displayed and clicks it",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinition.user_should_verify_button_is_displayed_and_clicks_it(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 114681930,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should also verify error message displayed is \"Please try again.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please try again.",
+                  "offset": 52
+                }
+              ],
+              "location": "StepDefinition.user_should_also_verify_error_message_displayed_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6599295140,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter the values for \"Your First Name,joshua.c\" and \"Any value,campusm\" and clicks on \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your First Name,joshua.c",
+                  "offset": 27
+                },
+                {
+                  "val": "Any value,campusm",
+                  "offset": 58
+                },
+                {
+                  "val": "Login",
+                  "offset": 92
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_values_for_and_and_clicks_on_button(String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68010300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify user is logged in",
+            "match": {
+              "location": "StepDefinition.verify_user_is_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8028697318,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on tile, Enrolment -\u003e Your Details -\u003e Personal Details",
+            "match": {
+              "location": "StepDefinition.user_clicks_on_tile_Enrolment_Your_Details_Personal_Details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 590638561,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user gets the value from the Date of Birth field and change the current values to \"27/12/1990\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "27/12/1990",
+                  "offset": 83
+                }
+              ],
+              "location": "StepDefinition.user_gets_the_value_from_the_Date_of_Birth_field_and_change_the_current_values_to(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4850866663,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user adds \"Demo,blank\" and \"User,blank\" values Parent\u0027s / Guardian\u0027s Name section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Demo,blank",
+                  "offset": 11
+                },
+                {
+                  "val": "User,blank",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinition.user_adds_and_values_Parent_s_Guardian_s_Name_section(String,String)"
+            },
+            "matchedColumns": [
+              4,
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4874720795,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "adds \"demo.user@myemail.com,blank\" under Contact Information section and selects \"Male,Perfer not to say\" value in Gender section, now close the tile",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo.user@myemail.com,blank",
+                  "offset": 6
+                },
+                {
+                  "val": "Male,Perfer not to say",
+                  "offset": 82
+                }
+              ],
+              "location": "StepDefinition.adds_under_Contact_Information_section_and_selects_value_in_Gender_section_now_close_the_tile(String,String)"
+            },
+            "matchedColumns": [
+              6,
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5269746405,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks on tile, Enrolment -\u003e Your Details -\u003e Personal Details",
+            "match": {
+              "location": "StepDefinition.user_clicks_on_tile_Enrolment_Your_Details_Personal_Details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 146477176,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user verifies Date of Birth as \"27/12/1990\", Parent’s/Guardian’s First Name as \"Demo,blank\", Last Name as \"User,blank\", Gender as \"Male,Perfer not to say\" Email Address as \"demo.user@myemail.com,blank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "27/12/1990",
+                  "offset": 32
+                },
+                {
+                  "val": "Demo,blank",
+                  "offset": 80
+                },
+                {
+                  "val": "User,blank",
+                  "offset": 107
+                },
+                {
+                  "val": "Male,Perfer not to say",
+                  "offset": 131
+                },
+                {
+                  "val": "demo.user@myemail.com,blank",
+                  "offset": 173
+                }
+              ],
+              "location": "StepDefinition.user_verifies_Date_of_Birth_as_Parent_s_Guardian_s_First_Name_as_Last_Name_as_Gender_as_Email_Address_as(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 931929829,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user again reverses Date of Birth field \"27/12/1990\" to defualt, \"Demo,blank\", \"User,blank\",\t\"demo.user@myemail.com,blank\" all blanks and Gender to be \"Male,Perfer not to say\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "27/12/1990",
+                  "offset": 41
+                },
+                {
+                  "val": "Demo,blank",
+                  "offset": 66
+                },
+                {
+                  "val": "User,blank",
+                  "offset": 80
+                },
+                {
+                  "val": "demo.user@myemail.com,blank",
+                  "offset": 94
+                },
+                {
+                  "val": "Male,Perfer not to say",
+                  "offset": 152
+                }
+              ],
+              "location": "StepDefinition.user_again_reverses_Date_of_Birth_field_to_defualt_all_blanks_and_Gender_to_be(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4626860029,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user closes the tile (Use different way to close than used before), click on Angle down button on the top right of the page and click on \"Log Out\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log Out",
+                  "offset": 138
+                }
+              ],
+              "location": "StepDefinition.user_closes_the_tile_Use_different_way_to_close_than_used_before_click_on_Angle_down_button_on_the_top_right_of_the_page_and_click_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3979236953,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "verify user has logged out",
+            "match": {
+              "location": "StepDefinition.verify_user_has_logged_out()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@start"
+          },
+          {
+            "line": 4,
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "End to End testing for campusm App",
+    "description": "",
+    "id": "end-to-end-testing-for-campusm-app",
+    "keyword": "Feature",
+    "uri": "TestFeatures.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@start"
+      }
+    ]
+  }
+]
